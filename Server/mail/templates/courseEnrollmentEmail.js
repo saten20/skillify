@@ -68,7 +68,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
   <body>
       <div class="container">
           <a href="https://skillify-delta.vercel.app"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
-                  alt="StudyNotion Logo"></a>
+                  alt="skillify Logo"></a>
           <div class="message">Course Registration Confirmation</div>
           <div class="body">
               <p>Dear ${name},</p>
