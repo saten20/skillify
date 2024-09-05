@@ -67,7 +67,7 @@ const otpTemplate = (otp) => {
 	<body>
 		<div class="container">
 			<a href="https://skillify-delta.vercel.app"><img class="logo" src="https://i.ibb.co/dDzPv3k/mainlogo.png"
-                  alt="StudyNotion Logo"></a>
+                  alt="skillify Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
