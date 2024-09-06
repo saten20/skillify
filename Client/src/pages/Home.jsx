@@ -179,7 +179,7 @@ function Home() {
         {/* Reviws from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8 text-richblack-800">
           Reviews from other learners
-          <div className="w-full h-full">
+          <div className="max-w-maxContent mb-10">
               <ReviewSlider />
           </div>
         </h1>
