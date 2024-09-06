@@ -116,7 +116,7 @@ const About = () => {
         <h1 className="text-center text-4xl font-semibold mt-8 text-richblack-800">
           Reviews from other learners
         </h1>
-        <div>
+        <div className="w-fit ">
             <ReviewSlider />
         </div>
       </div>
