@@ -48,7 +48,7 @@ function UpdatePassword() {
           </p>
           <form onSubmit={handleOnSubmit}>
             <label className="relative">
-              <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
+              <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-600">
                 New Password <sup className="text-pink-500">*</sup>
               </p>
               <input
@@ -72,7 +72,7 @@ function UpdatePassword() {
               </span>
             </label>
             <label className="relative mt-3 block">
-              <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
+              <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-600">
                 Confirm New Password <sup className="text-pink-500">*</sup>
               </p>
               <input
@@ -105,7 +105,7 @@ function UpdatePassword() {
           </form>
           <div className="mt-6 flex items-center justify-between">
             <Link to="/login">
-              <p className="flex items-center gap-x-2 text-richblack-5">
+              <p className="flex items-center gap-x-2 text-richblack-600">
                 <BiArrowBack /> Back To Login
               </p>
             </Link>
