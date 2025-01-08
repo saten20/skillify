@@ -244,3 +244,18 @@ details > summary::-webkit-details-marker {
 .section_heading {
   @apply text-2xl font-bold text-richblack-5 lg:text-4xl;
 }
+
+.input-upload-course {
+  border: none !important;
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: auto !important;
+  white-space: normal !important;
+  z-index: 1 !important;
+  opacity: 1 !important; /* Ensure it is visible */
+}
