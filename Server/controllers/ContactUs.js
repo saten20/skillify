@@ -1,6 +1,8 @@
 const { contactUsEmail } = require("../mail/templates/contactFormRes")
 const mailSender = require("../utils/mailSender")
 
+// Once user enter the details in the contact us page , we are sending the mail to the user.
+
 exports.contactUsController = async (req, res) => {
   const { email, firstname, lastname, message, phoneNo, countrycode } = req.body
   console.log(req.body)
