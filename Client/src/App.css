@@ -261,7 +261,7 @@ details > summary::-webkit-details-marker {
 }
 
 
-.swiper-slide, swiper-slide {
+.review-slider-section .swiper-slide {
   display: block;
   flex-shrink: 0;
   height: 100%;
