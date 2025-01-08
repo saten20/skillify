@@ -259,3 +259,13 @@ details > summary::-webkit-details-marker {
   z-index: 1 !important;
   opacity: 1 !important; /* Ensure it is visible */
 }
+
+
+.swiper-slide, swiper-slide {
+  display: block;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100% !important;
+}
