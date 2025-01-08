@@ -267,5 +267,5 @@ details > summary::-webkit-details-marker {
   height: 100%;
   position: relative;
   transition-property: transform;
-  width: 100% !important;
+  width: 186px !important;
 }
